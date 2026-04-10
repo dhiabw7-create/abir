@@ -1,0 +1,35 @@
+{
+  "tenant": {
+    "id": "ae398a94-f7e4-4687-a5f3-2f56a885573f",
+    "name": "Platform",
+    "slug": "platform",
+    "timezone": "Africa/Tunis",
+    "locale": "fr",
+    "planId": "74a51a12-a21f-408e-8070-b735959d0959",
+    "isActive": true,
+    "createdAt": "2026-02-19T12:53:29.539Z",
+    "updatedAt": "2026-02-19T12:53:29.539Z"
+  },
+  "users": [
+    {
+      "id": "75b4ecd7-ff10-492e-b6d7-0db7bbddb41c",
+      "tenantId": "ae398a94-f7e4-4687-a5f3-2f56a885573f",
+      "roleId": "ab624b3f-faee-4c92-a901-c8fab320cf57",
+      "firstName": "Sara",
+      "lastName": "Admin",
+      "email": "superadmin@medflow.dev",
+      "passwordHash": "$2b$10$AnUgqX9QMRccvdKb4HyWmeJa0tkx.g5KbFp7JS0PgYU7GVoMggeo6",
+      "phone": "+21650000001",
+      "isActive": true,
+      "lastLoginAt": "2026-02-19T13:00:11.531Z",
+      "createdAt": "2026-02-19T12:53:29.617Z",
+      "updatedAt": "2026-02-19T13:00:11.598Z"
+    }
+  ],
+  "patients": [],
+  "appointments": [],
+  "consultations": [],
+  "prescriptions": [],
+  "payments": [],
+  "exportedAt": "2026-02-20T01:00:00.027Z"
+}

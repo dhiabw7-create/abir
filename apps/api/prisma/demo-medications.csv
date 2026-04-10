@@ -1,0 +1,6 @@
+code,brandName,dciName,dosageForm,strength,familyClass,reimbursable,cnamCode,unitPrice
+DEMO001,Dolocet,Paracetamol,Comprime,500mg,Analgesique,yes,CN001,2.8
+DEMO002,Amoxiclav,Amoxicilline+Acide clavulanique,Comprime,1g,Antibiotique,yes,CN002,18.9
+DEMO003,Glucophage,Metformine,Comprime,850mg,Antidiabetique,yes,CN003,5.7
+DEMO004,Atenolol,Atenolol,Comprime,50mg,Cardiologie,yes,CN004,4.2
+DEMO005,Omepra,Omeprazole,Gelule,20mg,Gastro,no,CN005,7.3

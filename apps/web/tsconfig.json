@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "noEmit": true,
+    "types": ["vite/client", "vitest/globals"],
+    "baseUrl": ".",
+    "noImplicitAny": false,
+    "paths": {
+      "@/*": ["src/*"],
+      "@medflow/shared": ["../../packages/shared/src/index.ts"],
+      "@medflow/shared/*": ["../../packages/shared/src/*"],
+      "@medflow/ui": ["../../packages/ui/src/index.ts"],
+      "@medflow/ui/*": ["../../packages/ui/src/*"]
+    }
+  },
+  "include": ["src"]
+}
